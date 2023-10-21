@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------HEADER-----------------------------------------------*/
+
+body{
+    margin:0 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 60px;
+}
+
+
+.menu{
+    display: flex;
+    margin-left: 550px;
+}
+
+.menu a{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration-line:underline;
+}
+
+.marca {
+    font-size: 40px;
+    color: black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+.img {
+    margin:0;
+    margin-top: 17px;
+}
+
+
+/*---------------------------------------------SECCION 1---------------------------------------------*/
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+}
+
+
+.texto h1 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 100px;
+    margin: 5px;
+}
+
+.v-line{
+    display: flex;
+    height: 250px;
+    margin: 0 50px;
+}
+
+.line {
+    border-left:solid gray 2px;
+    height: 65%;
+    left: 50%;
+    margin-top: 45px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    align-items: justify;
+    justify-content: center;
+}
+
+.h2-titulo h2{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+.texto-h2 p {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+
+/*---------------------------------------------SECCION 2---------------------------------------------*/
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    height: 500px;
+    width: 1272px;
+    margin-top: 20px;
+    margin-left: 250px;
+    position: relative;
+}
+
+
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.flecha-izq{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 55px;
+    box-shadow: none;
+}
+
+.flecha-der{
+    color: rgba(128, 128, 128, 0.37);
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 55px;
+    border-color: white;
+    box-shadow: none;
+}
+
+
+/*---------------------------------------------SECCION 3---------------------------------------------*/
+
+.seccion3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-right: 380px;
+}
+
+.imagen-izq{
+    height: 600px;
+    display: flex;
+    position: relative;
+}
+
+.texto-der{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+}
+
+.right h2{
+    font-size: 40px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.parrafo-der{
+    color: gray;
+    margin: 40px 25px;
+}
+
+.comillas{
+    margin: 50px 0;
+    padding-bottom: auto;
+    margin-left: 25px;
+}
+
+.button-izq-sec3{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-shadow: none;
+}
+
+.flecha-izq3{
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 55px;
+    box-shadow: none;
+    border-color: white;
+}
+
+.button-der-sec3{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flecha-der3{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 55px;
+    box-shadow: none;
+}
+
+
+/*---------------------------------------------SECCION 4---------------------------------------------*/
+
+.seccion4{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    height: 800px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px;
+    position: relative;
+    width: 800px;
+}
+
+.texto-izq4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-izq4 h2{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.texto-parrafo{
+    color: gray;
+    margin: 5px 0;
+}
+
+.texto-izq4 p{
+    margin: 5px;
+
+}
+
+.texto-der4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: justify;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.texto-der4 p{
+    color: gray;
+}
+
+.titulo-der4{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen3{
+    height: 430px;
+    width: 380px;
+}
+
+.imagen4{
+    width: 455px;
+    height: 370px;
+}
+
+
+/*---------------------------------------------SECCION 5---------------------------------------------*/
+
+.seccion5{
+    display: flex;
+    background-color: #FAFBFF;
+    margin-top: 150px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+display: flex;
+}
+
+
+.foto-perfil{
+    float: right;
+    background-color: rgba(17, 16, 16, 0.863);
+    margin: 0 20px 5px 0;
+}
+
+.foto-perfil img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    display: block;
+    position: relative;
+    margin: 15px -6px -6px 15px;
+}
+
+.descripcion{
+    width: 580px;
+}
+
+.parrafo-descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+
+}
+
+
+
