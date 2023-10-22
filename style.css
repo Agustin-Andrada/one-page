@@ -5,19 +5,14 @@
 
 /*-----------------------------------------------HEADER-----------------------------------------------*/
 
-body{
-    margin:0 200px;
-}
-
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .logo{
     display: flex;
-    margin-left: 60px;
 }
 
 
@@ -50,9 +45,39 @@ body{
     padding: auto;
 }
 
-.img {
+.img img{
     margin:0;
-    margin-top: 17px;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+
+@media all and (max-width: 480px){
+
+    .logo{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .marca{
+        font-size: 50px;
+    }
+
+    .img img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .menu{
+        margin-right: 10px;
+        margin-left: 180px;
+
+    }
+
+    .menu a{
+        margin: 15px;
+    }
 }
 
 
@@ -61,6 +86,10 @@ body{
 .seccion1 {
     display: flex;
     justify-content: center;
+}
+
+.container-seccion1{
+    display: flex;
 }
 
 .texto{
@@ -110,6 +139,39 @@ body{
     padding: 0;
 }
 
+@media all and (max-width: 480px){
+
+    .seccion1{
+        margin: 0 200px;
+        width: 450px;
+    }
+
+    .container-seccion1{
+        margin-right: 60px;
+    }
+
+    .texto h1{
+        font-size: 50px;}
+
+    .v-line{
+        height: 150px;
+    }
+
+    .line{
+        margin-top: 30px;
+    }
+
+    .h2-titulo h2{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .texto-h2 p{
+        margin-left: 0px;
+        width: 450px;
+        
+    }
+}
 
 /*---------------------------------------------SECCION 2---------------------------------------------*/
 
@@ -159,6 +221,31 @@ body{
     box-shadow: none;
 }
 
+
+@media all and (max-width: 480px){
+
+    .seccion2{
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    .contenedor-imagen{
+        height: 300px;
+        width: 800px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .flecha-izq{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+
+    .flecha-der{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+}
 
 /*---------------------------------------------SECCION 3---------------------------------------------*/
 
@@ -234,6 +321,56 @@ body{
 }
 
 
+@media all and (min-width: 320px) and (max-width: 480px){
+
+    .seccion3{
+        margin-left: 100px;
+        width: 580px;
+    }
+
+    .imagen-izq{
+        height: 450px;
+        width: 300px;
+    }
+
+    .imagen-izq img{
+        height: 450px;
+        width: 300px;
+
+    }
+
+    .texto-der{
+        height: 450px;
+        width: 280px;
+    }
+
+    .right h2{
+        font-size: 25px;
+    }
+
+    .parrafo-der{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .comillas{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .flecha-der3{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    .flecha-izq3{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+}
+
 /*---------------------------------------------SECCION 4---------------------------------------------*/
 
 .seccion4{
@@ -303,6 +440,28 @@ body{
     height: 370px;
 }
 
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion4{
+        margin-left: 160px;
+    }
+
+    .imagen3{
+        height: 300px;
+        width: 250px;
+    }
+
+    .imagen4{
+        height: 300px;
+        width: 250px;
+    }
+
+    .grilla{
+        margin-left: 500px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px;
+        margin-right: 80px;
+    }
+}
 
 /*---------------------------------------------SECCION 5---------------------------------------------*/
 
@@ -351,8 +510,12 @@ display: flex;
     text-align: center;
     color: gray;
     margin-top: 30px;
-
 }
 
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion5{
+        width: 800px;
+    }
+}
 
 
